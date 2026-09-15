@@ -15,7 +15,7 @@ public class Solution {
         BigInteger f = trans_ListNode(l1);
         BigInteger s = trans_ListNode(l2);
         BigInteger final_int = f + s;
-        string final_str = $"{final_int}";
+        char[] final_str = final_int.ToString().ToCharArray();
 
         ListNode finalLN = new ListNode((int)char.GetNumericValue(final_str[0]));
 
