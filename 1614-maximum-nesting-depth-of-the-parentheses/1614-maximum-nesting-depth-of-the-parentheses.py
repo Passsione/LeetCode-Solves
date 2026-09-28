@@ -32,7 +32,7 @@ class Solution:
 
                 
                 for f in range(par_len):
-                    
+
                     if par_list[f] == -1 and f + 1 < par_len and par_list[f + 1] != -1:
                         par_list[f + 1] = -1
                         accounted = True
@@ -43,8 +43,8 @@ class Solution:
                         par_list[f] = -1
                         accounted = True
                         break
-                    else:
-                        bother = False
+                    
+                    bother = False
 
 
                 if not accounted: par_list.append(-1)
