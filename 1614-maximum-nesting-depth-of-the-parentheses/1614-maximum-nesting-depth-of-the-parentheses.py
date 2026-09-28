@@ -17,6 +17,19 @@ class Solution:
             if l == "(":
                 accounted = False
                 
+                #  WHY NOT THIS 
+                # if par_len > 0 and all(x != -1 for x in par_list):
+                #     par_list[0] = -1
+                #     accounted = True
+                #     break
+                # else:
+                #     for f in range(par_len):
+                #         if par_list[f] == -1 and f + 1 < par_len and par_list[f + 1] != -1:
+                #             par_list[f + 1] = -1
+                #             accounted = True
+                #             break 
+
+                
                 for f in range(par_len):
                     if par_list[f] == -1 and f + 1 < par_len and par_list[f + 1] != -1:
                         par_list[f + 1] = -1
