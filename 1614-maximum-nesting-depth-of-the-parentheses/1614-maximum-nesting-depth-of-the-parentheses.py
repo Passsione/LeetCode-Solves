@@ -32,12 +32,14 @@ class Solution:
 
                 
                 for f in range(par_len):
-                    if par_list[f] == -1:
-                        bother = False
+                    
                     if par_list[f] == -1 and f + 1 < par_len and par_list[f + 1] != -1:
                         par_list[f + 1] = -1
                         accounted = True
                         break 
+                    if bother and par_list[f] == -1:
+                        bother = False
+
                     if bother and all(x != -1 for x in par_list):
                         par_list[f] = -1
                         accounted = True
