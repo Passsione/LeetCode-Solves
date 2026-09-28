@@ -31,7 +31,7 @@ class Solution:
 
                 if not accounted: par_list.append(-1)
 
-        return -1 if any(x == -1 for x in par_list) else len(par_list)
+        return  len(par_list)
 
 
 
