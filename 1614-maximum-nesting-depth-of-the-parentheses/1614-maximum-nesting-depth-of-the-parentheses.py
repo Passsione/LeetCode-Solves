@@ -1,7 +1,4 @@
 class Solution:
-    import sys
-    sys.set_int_max_str_digits(0) # Prevents limit errors on massive integers
-    
     def maxDepth(self, s: str) -> int:
         par_list = []
 
@@ -19,6 +16,7 @@ class Solution:
 
             if l == "(":
                 accounted = False
+                bother = True
                 
                 #  WHY NOT THIS 
                 # if par_len > 0 and all(x != -1 for x in par_list):
@@ -34,11 +32,13 @@ class Solution:
 
                 
                 for f in range(par_len):
+                    if par_list[f] == -1:
+                        bother = False
                     if par_list[f] == -1 and f + 1 < par_len and par_list[f + 1] != -1:
                         par_list[f + 1] = -1
                         accounted = True
                         break 
-                    if all(x != -1 for x in par_list):
+                    if bother and all(x != -1 for x in par_list):
                         par_list[f] = -1
                         accounted = True
                         break
