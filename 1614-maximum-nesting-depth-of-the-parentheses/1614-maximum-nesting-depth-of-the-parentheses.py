@@ -37,13 +37,14 @@ class Solution:
                         par_list[f + 1] = -1
                         accounted = True
                         break 
-                    if par_list[f] == -1:
-                        bother = False
+
 
                     if bother and all(x != -1 for x in par_list):
                         par_list[f] = -1
                         accounted = True
                         break
+                    else:
+                        bother = False
 
 
                 if not accounted: par_list.append(-1)
