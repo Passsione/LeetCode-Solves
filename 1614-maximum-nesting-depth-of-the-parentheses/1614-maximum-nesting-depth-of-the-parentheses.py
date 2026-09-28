@@ -1,4 +1,7 @@
 class Solution:
+    import sys
+    sys.set_int_max_str_digits(0) # Prevents limit errors on massive integers
+    
     def maxDepth(self, s: str) -> int:
         par_list = []
 
