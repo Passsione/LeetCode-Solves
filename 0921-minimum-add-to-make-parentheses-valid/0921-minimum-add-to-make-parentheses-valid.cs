@@ -1,6 +1,9 @@
 public class Solution {
     public int MinAddToMakeValid(string s) {
 
+        if(string.IsNullOrEmpty(s))
+            return 0;
+            
         List<int> temp = new List<int> {};
 
         for (int i = 0; i < s.Length; i++){
