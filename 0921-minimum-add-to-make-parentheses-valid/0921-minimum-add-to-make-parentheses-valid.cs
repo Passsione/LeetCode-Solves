@@ -20,7 +20,6 @@ public class Solution {
                 }
             }
         }
-
         return Array.FindAll(temp.ToArray(), x => x != 0).Length;
 
         
