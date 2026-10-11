@@ -14,11 +14,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0001-two-sum](https://github.com/Passsione/LeetCode-Solves/tree/main/0001-two-sum/) | Easy |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Passsione/LeetCode-Solves/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0013-roman-to-integer](https://github.com/Passsione/LeetCode-Solves/tree/main/0013-roman-to-integer/) | Easy |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/Passsione/LeetCode-Solves/tree/main/0002-add-two-numbers/) | Medium |
 | [0009-palindrome-number](https://github.com/Passsione/LeetCode-Solves/tree/main/0009-palindrome-number/) | Easy |
+| [0013-roman-to-integer](https://github.com/Passsione/LeetCode-Solves/tree/main/0013-roman-to-integer/) | Easy |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -32,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Passsione/LeetCode-Solves/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0005-longest-palindromic-substring](https://github.com/Passsione/LeetCode-Solves/tree/main/0005-longest-palindromic-substring/) | Medium |
+| [0013-roman-to-integer](https://github.com/Passsione/LeetCode-Solves/tree/main/0013-roman-to-integer/) | Easy |
 | [0014-longest-common-prefix](https://github.com/Passsione/LeetCode-Solves/tree/main/0014-longest-common-prefix/) | Easy |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Passsione/LeetCode-Solves/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Passsione/LeetCode-Solves/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
