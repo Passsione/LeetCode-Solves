@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0001-two-sum](https://github.com/Passsione/LeetCode-Solves/tree/main/0001-two-sum/) | Easy |
 | [0014-longest-common-prefix](https://github.com/Passsione/LeetCode-Solves/tree/main/0014-longest-common-prefix/) | Easy |
+| [2778-sum-of-squares-of-special-elements](https://github.com/Passsione/LeetCode-Solves/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -68,4 +69,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Passsione/LeetCode-Solves/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
+## Enumeration
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2778-sum-of-squares-of-special-elements](https://github.com/Passsione/LeetCode-Solves/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
 <!---LeetCode Topics End-->
