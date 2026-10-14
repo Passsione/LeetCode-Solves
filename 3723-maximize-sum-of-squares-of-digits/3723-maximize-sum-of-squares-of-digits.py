@@ -13,8 +13,8 @@ class Solution:
                     blank_good += f"{high}"
                     hold -= high  
                     break
-                else:
-                    high -= 1
+                    
+                high -= 1
 
             if hold <= 0: 
                 blank_good += '0' * (num - len(blank_good))
