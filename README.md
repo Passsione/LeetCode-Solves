@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/Passsione/LeetCode-Solves/tree/main/0002-add-two-numbers/) | Medium |
 | [0009-palindrome-number](https://github.com/Passsione/LeetCode-Solves/tree/main/0009-palindrome-number/) | Easy |
 | [0013-roman-to-integer](https://github.com/Passsione/LeetCode-Solves/tree/main/0013-roman-to-integer/) | Easy |
+| [3723-maximize-sum-of-squares-of-digits](https://github.com/Passsione/LeetCode-Solves/tree/main/3723-maximize-sum-of-squares-of-digits/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -72,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Passsione/LeetCode-Solves/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
+| [3723-maximize-sum-of-squares-of-digits](https://github.com/Passsione/LeetCode-Solves/tree/main/3723-maximize-sum-of-squares-of-digits/) | Medium |
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
