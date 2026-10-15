@@ -9,12 +9,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/Passsione/LeetCode-Solves/tree/main/0001-two-sum/) | Easy |
 | [0014-longest-common-prefix](https://github.com/Passsione/LeetCode-Solves/tree/main/0014-longest-common-prefix/) | Easy |
 | [2778-sum-of-squares-of-special-elements](https://github.com/Passsione/LeetCode-Solves/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Passsione/LeetCode-Solves/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/Passsione/LeetCode-Solves/tree/main/0001-two-sum/) | Easy |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Passsione/LeetCode-Solves/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0013-roman-to-integer](https://github.com/Passsione/LeetCode-Solves/tree/main/0013-roman-to-integer/) | Easy |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Passsione/LeetCode-Solves/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -80,4 +82,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2778-sum-of-squares-of-special-elements](https://github.com/Passsione/LeetCode-Solves/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
+## Binary Indexed Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Passsione/LeetCode-Solves/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
+## Segment Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Passsione/LeetCode-Solves/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 <!---LeetCode Topics End-->
