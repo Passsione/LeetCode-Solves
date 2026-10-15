@@ -12,6 +12,7 @@ var sumCounts = function(nums) {
         for(let i = 0; i < l; i++){
             let arr = nums.slice(i, i + setSize);
             if (arr.length < setSize)break;                            
+
             let temp = new Set(arr);
             sumSqu += temp.size * temp.size;   
 
