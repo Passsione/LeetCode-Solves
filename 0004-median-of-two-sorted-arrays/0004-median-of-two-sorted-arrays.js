@@ -36,6 +36,12 @@ var findMedianSortedArrays = function(nums1, nums2) {
             limit++;
         }
 
+        if(i == (m + n) / 2 && Math.floor((m + n) / 2) == (m + n) / 2){
+            // Early return
+            return (archor[i - 1] + archor[i]) / 2;
+        }else if(i == Math.floor((m + n) / 2) && Math.floor((m + n) / 2)  !== (m + n) / 2)
+            return archor[i];
+
 
     }
     if (hold.length > 0){
