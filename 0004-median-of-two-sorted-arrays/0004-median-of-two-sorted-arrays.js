@@ -8,12 +8,12 @@ var findMedianSortedArrays = function(nums1, nums2) {
     const m = nums1.length, n = nums2.length;
     let evenTotal = Math.floor((m + n) / 2) == (m + n) / 2;
 
-    // if(n == 0 || m == 0){
-    //     const consider = n == 0 ? nums1 : nums2;
-    //     let div = consider.length / 2;
-    //     if(evenTotal) return (consider[div - 1] + consider[div]) / 2;        
-    //     return consider[Math.floor(div)];
-    // }
+    if(n == 0 || m == 0){
+        const consider = n == 0 ? nums1 : nums2;
+        let div = consider.length / 2;
+        if(evenTotal) return (consider[div - 1] + consider[div]) / 2;        
+        return consider[Math.floor(div)];
+    }
     
     let lesser = n <= m;
     let archor = lesser ? nums1 : nums2;
