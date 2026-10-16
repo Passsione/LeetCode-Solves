@@ -6,18 +6,14 @@
 var findMedianSortedArrays = function(nums1, nums2) {
 
     const m = nums1.length, n = nums2.length;
+    let evenTotal = Math.floor((m + n) / 2) == (m + n) / 2;
 
-    if(n == 0 || m == 0){
-        const consider = n == 0 ? nums1 : nums2;
-        let div = consider.length / 2;
-        if(Math.floor(div) == div) { 
-            // Is even
-            div = Math.floor(div);
-            return (consider[div - 1] + consider[div]) / 2;
-        }else{
-            return consider[Math.floor(div)];
-        }
-    }
+    // if(n == 0 || m == 0){
+    //     const consider = n == 0 ? nums1 : nums2;
+    //     let div = consider.length / 2;
+    //     if(evenTotal) return (consider[div - 1] + consider[div]) / 2;        
+    //     return consider[Math.floor(div)];
+    // }
     
     let lesser = n <= m;
     let archor = lesser ? nums1 : nums2;
@@ -36,25 +32,20 @@ var findMedianSortedArrays = function(nums1, nums2) {
             limit++;
         }
 
-        if(i == (m + n) / 2 && Math.floor((m + n) / 2) == (m + n) / 2){
-            // Early return
+        // Early returns
+        if(i == (m + n) / 2 && evenTotal){
             return (archor[i - 1] + archor[i]) / 2;
-        }else if(i == Math.floor((m + n) / 2) && Math.floor((m + n) / 2)  !== (m + n) / 2)
+        }else if(i == Math.floor((m + n) / 2) && !evenTotal)
             return archor[i];
-
-
     }
+
     if (hold.length > 0){
         archor.push(...hold);
     }
 
     let div = archor.length / 2;
 
-    if(Math.floor(div) == div) { 
-        // Is even
-        p = Math.floor(div);
-        return (archor[p - 1] + archor[p]) / 2;
-    }
+    if(evenTotal) return (archor[div - 1] + archor[div]) / 2;
     return archor[Math.floor(div)];
     
 };
