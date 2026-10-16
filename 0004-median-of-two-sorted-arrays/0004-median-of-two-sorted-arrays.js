@@ -39,9 +39,7 @@ var findMedianSortedArrays = function(nums1, nums2) {
             return archor[i];
     }
 
-    if (hold.length > 0){
-        archor.push(...hold);
-    }
+    if (hold.length > 0) archor.push(...hold);
 
     let div = archor.length / 2;
 
