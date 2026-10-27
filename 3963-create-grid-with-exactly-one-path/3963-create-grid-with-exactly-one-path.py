@@ -6,9 +6,6 @@ class Solution:
         for row in range(m):
             r = ''
             for col in range(n):
-                if (row == 0 and col == 0) or (row == m - 1 and col == n - 1):
-                    r += '.'
-                    continue
                 if col == 0 or row == m - 1:
                     r += '.'
                 else:
