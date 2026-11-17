@@ -10,10 +10,12 @@ class Solution:
                 for d in digits:
                     total += int(d)
                 temp.append(str(total))
-                if len(s) >= k:
-                    s = s[k:]
-                else: 
-                    s = []
+                s = s[k:]
+
+                # if len(s) >= k:
+                #     s = s[k:]
+                # else: 
+                #     s = []
             s = "".join(temp)
 
         return s
